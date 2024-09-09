@@ -14,6 +14,12 @@
             $("#welcomeHeading").mouseleave(function () {
                 $("#welcomeHeading").css("color", "black");
             });
+            $("#caption").mouseenter(function () {
+                $("#caption").css("color", "red")
+            });
+            $("#caption").mouseenter(function () {
+                $("#caption").css("color", "black")
+            });
         });
     </script>
 </head>
@@ -23,7 +29,9 @@
     <div id="welcomeHeading">
         <h1>Below Are Some Of My Projects!</h1>
     </div>
-    <div>wow :o</div>
+    <div  id="caption">
+        <h1>wow :o</h1>
+    </div>
     <a href=/number />Number Guessing Game</a>
     <br>
     <a href=/hackerTyping />Hacker Typing</a>
